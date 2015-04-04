@@ -1,0 +1,35 @@
+{
+  "name": "cylon-alps-multi-sensor",
+  "version": "0.1.0",
+  "main": "lib/cylon-alps-multi-sensor.js",
+  "description": "Cylon module for APLS Multi Sensor Module",
+  "homepage": "http://cylonjs.com",
+  "bugs": "https://github.com/yoshida/cylon-alps-multi-sensor/issues",
+
+  "author": "Studio Arcana co.,Ltd. <s.yoshida@s-arcana.co.jp>",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoshida/cylon-alps-multi-sensor"
+  },
+
+  "license": "Apache 2.0",
+
+  "devDependencies": {
+    "sinon-chai": "2.5.0",
+    "chai":       "1.9.1",
+    "mocha":      "1.18.2",
+    "sinon":      "1.9.1",
+    "jshint":     "2.5.0"
+  },
+
+  "peerDependencies": {
+    "cylon": ">=0.22.0 < 1",
+    "cylon-ble": ">=0.4.0 < 1"
+  },
+
+  "dependencies": {
+    "cylon": "~0.22.0",
+    "cylon-ble": "~0.4.0"
+  }
+}
